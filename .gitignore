@@ -1,0 +1,46 @@
+# Node modules (both backend and frontend)
+node_modules/
+**/node_modules/
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Environment variables
+.env
+.env.*  # if you use env variants like .env.local, .env.production, etc.
+
+# Build outputs
+dist/
+build/
+
+# OS/System files
+.DS_Store
+Thumbs.db
+
+# Editor directories and files
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+
+# Optional: Ignore local MongoDB data directory if included
+data/db/
+
+# React specific
+*.cache
+*.tgz
+
+# Mac zip file metadata
+__MACOSX/
+
+# Optional: Ignore coverage reports from testing
+coverage/
+
+# Optional: Ignore ESLint cache
+.eslintcache

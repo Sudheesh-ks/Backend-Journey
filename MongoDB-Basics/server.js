@@ -3,7 +3,7 @@ const mongoose = require('mongoose');
 
 mongoose
 .connect(
-    'mongodb+srv://sudheeshks132:sudheeshks12345@cluster0.vre5hol.mongodb.net/'
+    process.env.MONGO_URI
 )
 .then(() => console.log("database connected successfully"))
 .catch((err) => console.log(err))
